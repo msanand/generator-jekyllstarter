@@ -5,6 +5,28 @@
 
 ## Getting Started
 
+### What is Jekyll Starter?
+
+Jekyll Starter is a bootstrap project to get you started quickly on blogging with Jekyll. You can read more about Jekyll [here](http://jekyllrb.com/). Jekyll Starter is based on [Lanyon](https://github.com/poole/lanyon), which is a specific style atop [Poole](https://github.com/poole/poole). This starter project includes social integration using [AddThis](https://www.addthis.com) for sharing and author following across many social media platforms. Integration with Google Analytics is also built in, using [Google Analytics superProxy](https://developers.google.com/analytics/solutions/google-analytics-super-proxy).
+
+The starter also provides tag visualization in each post, and as a consolidated tag based archive. A grunt based build is included, which currently supports css minification and merging - for faster loading of the blog.
+
+You can find the [Jekyll Starter project](https://github.com/msanand/jekyllstarter) on github. Feel free to contribute with a pull request.
+
+### Usage
+
+To install generator-jekyllstarter from npm, run:
+
+```bash
+npm install -g generator-jekyllstarter
+```
+
+Finally, initiate the generator:
+
+```bash
+yo jekyllstarter
+```
+
 ### What is Yeoman?
 
 Trick question. It's not a thing. It's this guy:
@@ -34,17 +56,6 @@ Finally, initiate the generator:
 ```bash
 yo jekyllstarter
 ```
-
-### What is Jekyll Starter?
-
-Jekyll starter is a project to get you started quickly on creating a blog using Jekyll. 
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
 
 ## License
 
