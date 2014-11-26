@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions:     [strikethrough,smart,with_toc_data]
+highlighter:      pygments
+
+# Permalinks
+permalink:        /posts/:title/
+
+# User Configuration
+title:            <%= blog_title %>
+tagline:          '<%= blog_tagline %>'
+description:      '<%= author_desc %>'
+url:              <%= blog_url %>
+baseurl:          '/'
+paginate:         3
+excerpt_separator: '<br>'
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+# Author Info
+author:
+  name:           '<%= author_name %>'
+  url:            <%= blog_url %>
+
+# Social Integration
+social:
+  twitter:        <%= twitter_handle %>
+  disqus:         <%= disqus_id %>
+  addthis_pubid:  <%= addthis_pubid %>
+
+# Google Analytics Configuration
+# Proxy response must be in JSON and should have the fields - ga:pagePath, ga:pageview
+google_analytics:
+  tracking_id:      <%= ga_tracking_id %>
+  super_proxy_url:  <%= ga_superproxy_url %>
+
+# Github
+github:
+  repo:           <%= github_repo %>
+  feedback:       <%= feedback_url %>
+
+# Version Info
+version:          0.0.0

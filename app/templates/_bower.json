@@ -1,0 +1,24 @@
+{
+  "name": "myjekyllblog",
+  "version": "0.0.1",
+  "authors": [
+    "<%= author_name %>"
+  ],
+  "description": "<%= blog_tagline %>",
+  "keywords": [
+    "jekyll",
+    "blog"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
