@@ -1,6 +1,6 @@
 {
   "name": "generator-jekyllstarter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jekyll Starter - Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
