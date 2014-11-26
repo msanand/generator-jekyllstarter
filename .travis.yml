@@ -4,4 +4,3 @@ node_js:
 before_install:
   - currentfolder=${PWD##*/}
   - if [ "$currentfolder" != 'generator-jekyllstarter' ]; then cd .. && eval "mv $currentfolder generator-jekyllstarter" && cd generator-jekyllstarter; fi
-
