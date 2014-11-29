@@ -23,6 +23,11 @@ This is the base on which [anandmanisankar.com](http://anandmanisankar.com) is b
 
 ### Usage
 
+##### Pre-requisites (Optional)
+
+You will need a Disqus account, AddThis account and Google Analytics Tracking ID, if you want to integrate your blog with these services. Ensure you have enabled share and follow tools in AddThis. To make use of the Google Analytics integration, ensure you set-up and configure the Google Analytics Super Proxy as described [here](https://developers.google.com/analytics/solutions/google-analytics-super-proxy). Also ensure that your super proxy returns 'ga:pageviews' and 'ga:pagePath'.
+(To tackle the CORS issue with super proxy, refer to my [StackOverflow response](http://stackoverflow.com/a/25758257/121241))
+
 Use the Jekyll Starter Yeoman generator to scaffold your blog in a matter of seconds.
 
 To install generator-jekyllstarter from npm, run:
