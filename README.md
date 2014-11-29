@@ -1,9 +1,6 @@
-# generator-jekyllstarter [![Build Status](https://secure.travis-ci.org/msanand/generator-jekyllstarter.png?branch=master)](https://travis-ci.org/msanand/generator-jekyllstarter)
+# Jekyll Starter Generator [![Build Status](https://secure.travis-ci.org/msanand/generator-jekyllstarter.png?branch=master)](https://travis-ci.org/msanand/generator-jekyllstarter)
 
 > [Yeoman](http://yeoman.io) generator
-
-
-## Getting Started
 
 ### What is Jekyll Starter?
 
@@ -21,10 +18,16 @@ To install generator-jekyllstarter from npm, run:
 npm install -g generator-jekyllstarter
 ```
 
-Finally, initiate the generator:
+Now, initiate the generator:
 
 ```bash
 yo jekyllstarter
+```
+
+Finally, generate a new post to get you started:
+
+```bash
+yo jekyllstarter:newpost
 ```
 
 ### What is Yeoman?
