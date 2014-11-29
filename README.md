@@ -1,4 +1,5 @@
-# Jekyll Starter Generator [![Build Status](https://secure.travis-ci.org/msanand/generator-jekyllstarter.png?branch=master)](https://travis-ci.org/msanand/generator-jekyllstarter)
+# Jekyll Starter Generator
+[![Build Status](https://secure.travis-ci.org/msanand/generator-jekyllstarter.png?branch=master)](https://travis-ci.org/msanand/generator-jekyllstarter) [![npm version](https://badge.fury.io/js/generator-jekyllstarter.svg)](http://badge.fury.io/js/generator-jekyllstarter)
 
 > [Yeoman](http://yeoman.io) generator
 
