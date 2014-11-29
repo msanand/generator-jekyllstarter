@@ -12,7 +12,6 @@ describe('jekyllstarter:app', function () {
       .inDir(path.join(os.tmpdir(), './temp-test'))
       .withOptions({ 'skip-install': true })
       .withPrompt({
-        someOption: true,
         blogTitle:'Hello Blog!',
         tagline:'This is a test blog',
         desc:'This is the description',
