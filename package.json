@@ -1,6 +1,6 @@
 {
   "name": "generator-jekyllstarter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Jekyll Starter - Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -20,7 +20,11 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "blog",
+    "blogging",
+    "jekyll",
+    "post"
   ],
   "dependencies": {
     "chalk": "^0.5.0",
