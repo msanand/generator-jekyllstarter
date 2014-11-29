@@ -28,7 +28,7 @@ describe('jekyllstarter:app', function () {
       .on('end', done);
   });
 
-  it('creates files', function () {
+  it('creates blog files', function () {
     assert.file([
       '404.html',
       'about.md',
@@ -62,9 +62,15 @@ describe('jekyllstarter:app', function () {
       'assets/apple-touch-icon-precomposed.png',
       'bower.json',
       'package.json',
-      'README.md',
+      'README.md'
+    ]);
+  });
+
+  it('creates project files', function () {
+    assert.file([
       '.editorconfig',
-      '.jshintrc'
+      '.jshintrc',
+      '.gitignore'
     ]);
   });
 });
