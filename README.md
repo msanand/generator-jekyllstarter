@@ -87,4 +87,4 @@ You can report issues or request new features [here](https://github.com/msanand/
 
 ### License
 
-[MIT](https://github.com/msanand/jekyllstarter/blob/master/LICENSE)
+MIT © [Anand Mani Sankar](http://anandmanisankar.com)
