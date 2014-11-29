@@ -4,13 +4,28 @@
 
 ### What is Jekyll Starter?
 
-Jekyll Starter is a bootstrap project to get you started quickly on blogging with Jekyll. You can read more about Jekyll [here](http://jekyllrb.com/). Jekyll Starter is based on [Lanyon](https://github.com/poole/lanyon), which is a specific style atop [Poole](https://github.com/poole/poole). This starter project includes social integration using [AddThis](https://www.addthis.com) for sharing and author following across many social media platforms. Integration with Google Analytics is also built in, using [Google Analytics superProxy](https://developers.google.com/analytics/solutions/google-analytics-super-proxy).
+Jekyll Starter is a bootstrap project for quickly creating a blog site based on [Jekyll](http://jekyllrb.com/). The starter project provides a foundation based on [Lanyon](https://github.com/poole/lanyon), which is a flavor of [Poole](https://github.com/poole/poole).
 
-The starter also provides tag visualization in each post, and as a consolidated tag based archive. A grunt based build is included, which currently supports css minification and merging - for faster loading of the blog.
+In addition to the clean, minimalistic styling borrowed from Lanyon, Jekyll Starter provides the following functionality out-of-the-box:
 
-You can find the [Jekyll Starter project](https://github.com/msanand/jekyllstarter) on github. Feel free to contribute with a pull request.
+* Comments using [Disqus](https://disqus.com/)
+* [Google Analytics](http://www.google.co.in/analytics/) Integration with [superProxy](https://developers.google.com/analytics/solutions/google-analytics-super-proxy)
+  * Page view counter
+  * Website counter
+* Social sharing using [AddThis](http://www.addthis.com/)
+* Author following using [AddThis](http://www.addthis.com/)
+* Tag visualization per post
+* Archive organized by tags
+* Customizable profile picture in sidebar and about page
+* [Grunt](http://gruntjs.com/) based build with CSS merge and minification
+
+This is the base on which [anandmanisankar.com](http://anandmanisankar.com) is built.
 
 ### Usage
+
+##### Option 1:
+
+Use the Jekyll Starter Yeoman generator to scaffold your blog in a matter of seconds.
 
 To install generator-jekyllstarter from npm, run:
 
@@ -24,7 +39,9 @@ Now, initiate the generator:
 yo jekyllstarter
 ```
 
-Finally, generate a new post to get you started:
+Answer the questions asked by the generator, and you're blog is ready!
+
+You can also generate a new post:
 
 ```bash
 yo jekyllstarter:newpost
