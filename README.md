@@ -1,4 +1,6 @@
 # Jekyll Starter Generator
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/msanand/generator-jekyllstarter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://secure.travis-ci.org/msanand/generator-jekyllstarter.png?branch=master)](https://travis-ci.org/msanand/generator-jekyllstarter) [![npm version](https://badge.fury.io/js/generator-jekyllstarter.svg)](http://badge.fury.io/js/generator-jekyllstarter)
 
 > [Yeoman](http://yeoman.io) generator
