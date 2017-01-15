@@ -24,7 +24,9 @@ describe('jekyllstarter:newpost', function () {
   it('creates new post', function () {
 
     var today = new Date();
-    this.date = today.getFullYear() + "-" + today.getMonth() + "-" + today.getDate();
+    var zeroBasedMonth = today.getMonth();
+    var month = zeroBasedMonth < 9 ? "0" + (zeroBasedMonth + 1) : (zeroBasedMonth + 1);
+    this.date = today.getFullYear() + "-" + month + "-" + today.getDate();
     this.fileName = "_posts/" + this.date + "-" + "test-post.md";
 
     assert.file([
