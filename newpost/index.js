@@ -52,8 +52,10 @@ var JekyllStarterPostGenerator = yeoman.generators.Base.extend({
       this.analytics = props.analytics ? "true" : "false";
 
       var today = new Date();
-      this.date = today.getFullYear() + "-" + today.getMonth() + "-" + today.getDate();
-      this.time = today.getHours() + ":" + today.getMinutes() + " IST";
+      var zeroBasedMonth = today.getMonth();
+      var month = zeroBasedMonth < 9 ? "0" + (zeroBasedMonth + 1) : (zeroBasedMonth + 1);
+      this.date = today.getFullYear() + "-" + month + "-" + today.getDate();
+      this.time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
       this.tidyPostTitle = this.postTitle.replace(/\s+/g, '-').toLowerCase();
 
       this.fileName = this.date + "-" + this.tidyPostTitle + ".md";

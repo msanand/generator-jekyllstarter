@@ -16,6 +16,7 @@ baseurl:          '/'
 paginate:         3
 excerpt_separator: '<br>'
 gems:
+- jekyll-paginate
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
