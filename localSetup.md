@@ -1,4 +1,5 @@
 ## Running the yo generator locally
+* gem install github-pages
 * Install jekyll: https://jekyllrb.com/docs/installation/
 * Install brew, node, npm and yeomen.
 * Clone the repository
