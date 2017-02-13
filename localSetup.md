@@ -1,7 +1,7 @@
 ## Running the yo generator locally
 * Install brew, node, npm and yeomen.
 * gem install github-pages (this also installs jekyll: https://jekyllrb.com/docs/installation/)
-* Clone the repository
+* Clone the repository (newpost dosent work from npm repo build)
 * npm link
 * yo jekyllstarter
 * yp jekyllstarter:newpost
