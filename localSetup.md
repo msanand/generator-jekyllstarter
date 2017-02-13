@@ -6,6 +6,8 @@
 * yo jekyllstarter
 * yp jekyllstarter:newpost
 * jekyll serve
+* Themes: https://github.com/poole/lanyon#themes
+* layout: https://github.com/poole/lanyon#reverse-layout
 
 ## Ref links
 * http://yeoman.io/authoring/
