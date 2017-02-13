@@ -1,6 +1,9 @@
 ## Running the yo generator locally
 * Clone the repository
 * npm link
+* yo jekyllstarter
+* yp jekyllstarter:newpost
+* jekyll serve
 
 ## Ref links
 * http://yeoman.io/authoring/
