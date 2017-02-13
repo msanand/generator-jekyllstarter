@@ -1,4 +1,5 @@
 ## Running the yo generator locally
+* Install jekyll: https://jekyllrb.com/docs/installation/
 * Clone the repository
 * npm link
 * yo jekyllstarter
